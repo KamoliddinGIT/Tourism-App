@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="images/placeholder.png">
+   <title>Sayyohlar Uchun</title>
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script type="module" src="./js/map.js"></script>
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <a href="home.html" class="logo">guided travel.</a>
+
+   <nav class="navbar">
+      <a href="home.html">Bosh sahifa</a>
+      <a href="about.html">Biz haqimizda</a>
+      <a href="package.html">shaharlar</a>
+      <a href="book.html">sayyohlar uchun</a>
+   </nav>
+
+
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
+
+<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+   <h1>sevimli shahringiz</h1>
+</div>
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+   <h1 class="heading-title">qayerga bormoqchisiz?</h1>
+
+   <form class="book-form">
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>Shahar nomi :</span>
+            <input type="text" class="input" placeholder="Shahar nomini kiriting">
+         </div>
+         <input type="submit" value="qidirish" class="btn">
+      </div>
+
+      
+
+   </form>
+
+      <!-- <section class="home-about" style="display: none;"> -->
+         <div class="content" style="display: flex;" id="content">
+            <h3 class="titlecity"></h3>
+            <h1 class="temp"> <b> </b> </h1>
+            <h1 class="temp2"> <b> </b> </h1>
+            <h1 class="air"></h1>
+         </div>
+      
+      <!-- </section> -->
+      <span class="loader"></span>
+      <h1 class="text-error">Noto'g'ri ma'lumot kiritdingiz!</h1>
+   <div id="map"></div>
+</section>
+x
+<!-- fetching starts-->
+
+
+
+
+
+
+
+<!-- fetching ends -->
+
+<!-- booking section ends -->
+
+<!-- footer section starts  -->
+
+
+<<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>tezkor havolalar</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i> Bosh sahifa</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> Biz haqimizda</a>
+         <a href="package.html"> <i class="fas fa-angle-right"></i> shaharlar</a>
+         <a href="book.html"> <i class="fas fa-angle-right"></i> tadqiqot</a>
+      </div>
+<!-- 
+      <div class="box">
+         <h3>qo'shimcha havolalar</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div> -->
+
+      <div class="box">
+         <h3>Biz bilan aloqa</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +998 95-030-77-29 </a>
+         <a href="#"> <i class="fas fa-phone"></i> +998 71 200 00 88 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> help@uzbekistan.travel </a>
+         <a href="#"> <i class="fas fa-map"></i> 100015, Toshkent shahri, Oybek ko'chasi, 18-uy</a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="https://www.facebook.com/bekjon.boriboyev.3"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="https://www.twitter.com/bekjonburiboyev"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="https://www.instagram.com/kamoliddin_bakhtiyorov/"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="https://www.linkedin.com/in/kamoliddin-bakhtiyorov-3269b825a/"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> Tomonidan yaratildi <span>Cyber Knights</span> | Barcha huquqlar himoyalangan! </div>
+
+</section>
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<!-- <script src="js/main.js"></script> -->
+<script src="js/map.js"></script>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_Smw_8vrqFlLfHmPyTjJREipOaE_ZU4Y&callback=initMap&v=weekly"
+      defer
+    ></script>
+</body>
+</html>
